@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Descendant Selector</title>
+    <style>
+       /* all li elements that are inside a section element. */
+       section li {
+           color: green;
+       }
+       article li {
+           color:blue;
+       }
+    </style>
+</head>
+<body>
+    <h1>Descendant Selector</h1>
+    <section>
+        Table of contents:
+        <ul>
+            <li>Article 1</li>
+            <li>Article 2</li>
+            <li>Article 3</li>
+        </ul>
+    </section>
+    <article>
+        Shopping List:
+        <ol>
+            <li>Cookies</li>
+            <li>Cake</li>
+            <li>Pie</li>
+        </ol>
+    </article>
+</body>
+</html>
+<!-- Summary 
+     Combining selectors
+     . Element with class selector (selector.class) 
+     . Child (direct) selector (selector selector) 
+     . Descendent selector (selector selector) -->
