@@ -146,4 +146,15 @@ font-size: 1.8em;
     height: 20px;
   }
 
+  #collapsable-nav a /* Collapsed nav menu glyph */
+  {
+    font-size: 1.2em;
+  }
+
+  #collapsable-nav a span 
+  {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
 }
